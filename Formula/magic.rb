@@ -8,7 +8,7 @@ class Magic < Formula
   head do
     url "git://opencircuitdesign.com/magic", branch: "master"
   end
-
+  depends_on :macos
   depends_on "fontconfig"
   depends_on "freetype"
   depends_on "libglu"
