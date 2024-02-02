@@ -1,8 +1,8 @@
 class Magic < Formula
   desc "OpenSource VLSI Layout Tool"
   homepage "http://opencircuitdesign.com/magic/"
-  url "http://opencircuitdesign.com/magic/archive/magic-8.3.456.tgz"
-  sha256 "3eb29b2de70527eb61d31f40d1fa79e7446703cc3da1611332d1694193fcb73c"
+  url "http://opencircuitdesign.com/magic/archive/magic-8.3.460.tgz"
+  sha256 "f9d73d95872155ca4f4563fade0cd9355ace4c5d2a070d856397b2b313bba27d"
   license "HPND-UC"
 
   head do
