@@ -16,7 +16,7 @@ class CocoapodsAT1113 < Formula
     sha256                               big_sur:        "b0f7e8f4a57003c052ea3d8dc2ea69fffb838f8c80531889baf04d49113d5744"
     sha256 cellar: :any_skip_relocation, x86_64_linux:   "dacd0df74ceb00ce3da1f73b53225813e49c25a64c2a0045e6610f078fb67fc4"
   end
-
+  keg_only "it conflicts with `brew-core Cocoapods`"
   depends_on "pkg-config" => :build
   uses_from_macos "libffi", since: :catalina
   uses_from_macos "ruby", since: :catalina
